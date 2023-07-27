@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="flex">
+        <div class="left-side">
+        </div>
+        <div>
+            <div class="logo-text"> 
+               <h2>Skydash</h2>
+               <p>New Here?</p>
+               <p>Join us today! take only few steps</p>
+        
+             <form [formGroup]="SignUpForm" (ngSubmit)="SignUpformsubmit()">
+
+               <div class="right-side">
+                <input type="text" id="username" name="username" placeholder="Name" required formControlName="username">
+                        <!-- Name- Validators   -->
+                  <span *ngIf="username && username.invalid && username.touched">Name must be required</span>
+                  <span *ngIf="username && username.errors && username.errors['maxlength']">Cannot be more than 20 characters long</span>
+                  <span *ngIf="username && username.errors && username.errors['minlength']">At least 2 characters long</span>
+               </div>
+    
+              <div>
+                <input type="email" id="email" name="email" placeholder="Example@gmail.com" required formControlName="email">
+			                <!-- Email-Validators  -->
+                <span *ngIf="email && email.invalid && email.touched ">Email must be required</span>
+             </div>
+              
+              <div>
+                <input type="password" id="password" name="password" placeholder="Set-Password" required formControlName="password">
+                       <!-- Password-Validarors  -->
+                <span *ngIf="password && password.invalid && password.touched">Password must be required</span>
+                <span *ngIf="password && password.errors && password.errors['minlength']">At least 8 characters long</span>
+             </div>
+
+             <div>
+		          	<input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm-Password" required formControlName="confirmPassword">
+                <span *ngIf="confirmPassword && confirmPassword.invalid && confirmPassword.touched">password must be required</span>
+             </div>
+
+             <div>
+                <input type="number" id="phone" name="phone" placeholder="Contact-Number" required formControlName="phone">
+                <span *ngIf="phone && phone.invalid && phone.touched">Phone Number must be required</span>
+                <span *ngIf="phone && phone.errors && phone.errors['minlength']">Invalid Number</span>
+             </div>
+			  
+              <div>
+                <button type="submit">Sign Up</button>
+              </div>
+    
+             </form>
+    
+             <p>Already have an account ? <a routerLink="">Login</a></p>
+    
+           </div>
+      </div>
+     
+    </div>
+</div>

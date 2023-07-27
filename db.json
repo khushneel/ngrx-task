@@ -1,0 +1,195 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "username": "Name",
+      "email": "Pizza@gmail.com",
+      "password": "ndkjhnewcfjkhnewf",
+      "confirmPassword": "ewdfewjdhfjewdfijewf",
+      "phone": 9787857878,
+      "id": 2
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "confirmPassword": "Admin@123",
+      "phone": 3212762789,
+      "id": 3
+    },
+    {
+      "username": "khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Khushneel",
+      "confirmPassword": "Khushneel",
+      "phone": 9878168123,
+      "id": 4
+    },
+    {
+      "username": "khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Khush@123",
+      "confirmPassword": "Khush@123",
+      "phone": 9878168125,
+      "id": 5
+    },
+    {
+      "username": "Khushneel",
+      "email": "khushneel@seasia.in",
+      "password": "UHVdtziKp9HsBST",
+      "confirmPassword": "UHVdtziKp9HsBST",
+      "phone": 13251546974685,
+      "id": 6
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Kbhushneel",
+      "confirmPassword": "Khushneel",
+      "phone": 9878168123,
+      "id": 7
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Khushneel",
+      "confirmPassword": "Khushneeel",
+      "phone": 98781068123,
+      "id": 8
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Khushjkldqw",
+      "confirmPassword": "qwf.ewfjjew",
+      "phone": 97854613256,
+      "id": 9
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Khushjkldqw",
+      "confirmPassword": "qwf.ewfjjew",
+      "phone": 97854613256,
+      "id": 10
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Khushneel@123",
+      "confirmPassword": "Khushneel@123",
+      "phone": 7901841921,
+      "id": 11
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com12",
+      "password": "weqweqweqw",
+      "confirmPassword": "eqweqwqwweeq",
+      "phone": 221312312213,
+      "id": 12
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "Khushneel",
+      "confirmPassword": "Khushneel",
+      "phone": 0,
+      "id": 13
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "kHUSHNEEL",
+      "confirmPassword": "kHUSHNEEL",
+      "phone": 7901841921,
+      "id": 14
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "asfdasgdsagds",
+      "confirmPassword": "dgfedsgdrfsgdsf",
+      "phone": 235423534534,
+      "id": 15
+    },
+    {
+      "username": "Khushneel",
+      "email": "khusneel@seasia.in",
+      "password": "efrtetr4ewty",
+      "confirmPassword": "rgfrey",
+      "phone": 242356345462356,
+      "id": 16
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": "",
+      "phone": "",
+      "id": 17
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": "",
+      "phone": "",
+      "id": 18
+    },
+    {
+      "username": "fregrth",
+      "email": "Pizza@gmail.com",
+      "password": "trhtrhrehbdf",
+      "confirmPassword": "hdrfhdfshrety54654",
+      "phone": 65465475678568,
+      "id": 19
+    },
+    {
+      "username": "Khushneel",
+      "email": "Pizza@gmail.com",
+      "password": "hdrtfhdrtf",
+      "confirmPassword": "hdrfhtgfh",
+      "phone": 756789567856756,
+      "id": 20
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": "",
+      "phone": "",
+      "id": 21
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": "",
+      "phone": "",
+      "id": 22
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": "",
+      "phone": "",
+      "id": 23
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

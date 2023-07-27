@@ -1,0 +1,30 @@
+<!-- <div *ngIf="user">
+    <p>Username: {{ user.username }}</p>
+    <p>Email: {{ user.email }}</p>
+    <p>Password: {{ user.password }}</p>
+    <p>Confirm Password: {{ user.confirmPassword }}</p>
+    <p>Phone: {{ user.phone }}</p>
+  </div>
+   -->
+
+   <table class="user-table">
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Confirm Password</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="user">
+        <td>{{ user.username }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.password }}</td>
+        <td>{{ user.confirmPassword }}</td>
+        <td>{{ user.phone }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
